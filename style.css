@@ -1,7 +1,7 @@
 body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-/*  background-image: url("https://i.pinimg.com/originals/4d/34/59/4d3459ffc16dfd75c51236a388cd15d3.gif"); */
+
 }
 
 .mapa{
@@ -238,3 +238,52 @@ a{
 #restriccionInput {
     text-align: center; /* Centrar el input de restricciones dietéticas */
 }
+
+
+/* Estilos generales */
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Evitar el desplazamiento horizontal */
+}
+
+/* Ajustes para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    /* Estilos para las imágenes */
+    .contenedor-details img,
+    .story img,
+    .travel img {
+        width: 100%; /* Hacer que las imágenes ocupen todo el ancho del contenedor */
+        max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+        height: auto; /* Mantener la relación de aspecto */
+    }
+
+    /* Ajustes para el diseño de columna */
+    .contenedor-details,
+    .story,
+    .dress_code,
+    .contenedor_travel {
+        flex-direction: column; /* Cambiar el diseño a columna */
+        align-items: center; /* Centrar los elementos horizontalmente */
+        text-align: center; /* Centrar el texto */
+    }
+
+    /* Ajustes adicionales */
+    .cover-menu {
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+
+    .h2,
+    .h21 {
+        margin-top: 30px; /* Reducir el margen superior */
+    }
+
+    .contenedor-details{
+        margin-left: 0;
+    }
+}
+
+
