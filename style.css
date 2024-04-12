@@ -1,7 +1,9 @@
 body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
+    /* background-image: url("./valentines-gif-4026.gif") ;
+    background-repeat: round;
+    color: white; */
 }
 
 .mapa{
@@ -242,8 +244,7 @@ a{
 
 /* Estilos generales */
 body {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
